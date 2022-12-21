@@ -51,11 +51,7 @@ h2 {
     color: #4ccef6;
 }
 
-/* .arrow {
-    margin-left: 15px;
-    display: none;
-    transition: 0.4s;
-} */
+
 
 .project-btn:hover {
     display: block;
@@ -75,11 +71,7 @@ h2 {
 }
 
 
-/* @media all and (max-width: 1200px) {
-    .main-box {
-        width: 50%;
-    }
-} */
+
 
 @media all and (max-width: 920px) {
     #main {
@@ -154,21 +146,3 @@ h2 {
     }
 }
 
-/* @media all and (max-width: 320px) {
-    .par {
-        font-size: 27px;
-    }
-
-    .par-main {
-        font-size: 30px;
-    }
-
-    .project-btn {
-        font-size: 20px;
-        padding: 5px;
-    }
-
-    .smile {
-        width: 200px;
-    }
-} */

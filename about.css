@@ -93,10 +93,7 @@ a{
         height: 384px;
     }
 
-    /* .btn-controls {
-        width: 50px;
-        background-size: 60px;
-    } */
+
 }
 
 @media all and (max-width: 540px) {
@@ -133,20 +130,7 @@ a{
         height: 215px;
     }
 
-    /* .btn-controls {
-        width: 30px;
-        background-size: 30px;
-    }
 
-    .skills-icon {
-        width: 20px;
-    }
-
-    .close-btn {
-        width: 20px;
-        height: 20px;
-        background-size: 20px;
-    } */
     .icon-skill{
         width: px;
     }

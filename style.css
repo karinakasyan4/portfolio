@@ -114,10 +114,11 @@ nav {
 }
 #btn-eng{
     background-image: url(/image/icons8-великобритания-48.png);
+    margin-right: 10px;
 }
-#btn-ru{
+/* #btn-ru{
     background-image: url(/image/icons8-российская-федерация-48.png);
-}
+} */
 
 /* кометы */
 #particles-js {
@@ -162,8 +163,3 @@ nav {
         margin: 7px 30px;
     }
 }
-/* @media all and (max-width: 540px) {
-    nav {
-        padding: 5px 0;
-    }
-} */
