@@ -1,0 +1,174 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-position {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.about-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.box-par-about {
+    width: 50%;
+}
+
+.par-about {
+    font-size: 25px;
+    line-height: 1.4;
+    color: #ffff;
+}
+
+
+.certificate{
+    width: 400px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    height: 300px;
+}
+.about-skills{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.title-skill{
+    align-self: flex-end;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.btnKnowMore{
+    padding: 5px 15px;
+    border: 3px solid #fff;
+    border-radius: 18px;
+    background-color: #000;
+    font-size: 20px;
+    width: 300px;
+    margin-top: -20px;
+}
+.btnKnowMore:hover{
+    background: linear-gradient(to right, #f6b708, #f6f051, #5ff608, #4ccef6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: #4ccef6 3px solid;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.canSheCode{
+    color: #9a446b;
+}
+@media all and (max-width: 920px) {
+    .about-box {
+        flex-direction: column;
+    }
+
+    .box-par-about {
+        width: 500px;
+        margin-bottom: 50px;
+    }
+
+    .paper {
+        margin-bottom: 100px;
+    }
+
+    .certificate {
+        width: 500px;
+        height: 384px;
+    }
+
+    /* .btn-controls {
+        width: 50px;
+        background-size: 60px;
+    } */
+}
+
+@media all and (max-width: 540px) {
+    .about-position {
+        margin-top: 40px;
+    }
+    .skills{
+        height: 300px;
+        margin-left: 0;
+    }
+    .about-skills{
+        margin-left: 0;
+    }
+
+    .about-box {
+        margin-top: 30px;
+    }
+
+    .box-par-about {
+        width: 280px;
+        margin-bottom: 40px;
+    }
+
+    .par-about {
+        font-size: 18px;
+    }
+
+    .paper {
+        margin-bottom: 40px;
+    }
+
+    .certificate {
+        width: 280px;
+        height: 215px;
+    }
+
+    /* .btn-controls {
+        width: 30px;
+        background-size: 30px;
+    }
+
+    .skills-icon {
+        width: 20px;
+    }
+
+    .close-btn {
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+    } */
+    .icon-skill{
+        width: px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .box-par-about {
+        width: 230px;
+    }
+
+    .par-about {
+        font-size: 16px;
+    }
+
+    .certificate {
+        width: 230px;
+        height: 177px;
+    }
+
+    .btn-controls {
+        width: 20px;
+        background-size: 20px;
+    }
+}

@@ -1,0 +1,112 @@
+#contactMe{
+    margin-top: 40px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.contact-text{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.container-question{
+    display: flex;
+    justify-content: space-around;
+    margin: 24px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 350px;
+}
+
+label{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background-color: #000;
+    font-size: 18px;
+}
+.submitContact{
+    font-size: 24px;
+    height: 45px;
+    align-self: flex-end;
+    text-align: center;
+    border-radius: 16px;
+    width: 350px;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+.submitContact:hover {
+    background: linear-gradient(to right, #f6b708, #f6f051, #5ff608, #4ccef6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: #4ccef6 3px solid;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.copyright{
+    color: #5ff608;
+    font-size: 14px;
+}
+
+@media all and (max-width: 540px) {
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .contact-text{
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .container-question{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 5px;
+        margin-top: 60px;
+    }
+    .question{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 350px;
+    }
+    
+    label{
+        font-size: 20px;
+        margin-left: 8px;
+    }
+    input{
+        font-size: 16px;
+    }
+    .submitContact{
+        margin-top: 20px;
+        align-self: center;
+    }
+}

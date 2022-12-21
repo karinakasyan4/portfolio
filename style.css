@@ -1,0 +1,169 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#000;
+}
+
+#main, #home, #project, #about, #contact {
+    min-height: 90vh;
+    background-size: cover;
+}
+
+
+/* navbar */
+
+nav {
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-main {
+    margin-right: auto;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link:hover {
+    background: linear-gradient(to right, #f6b708, #f6f051, #5ff608, #4ccef6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #4ccef6;
+    transform-origin: left;
+    transition: ease-out 0.4s;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.hamburger-button {
+    cursor: pointer;
+    display: none;
+}
+
+.line1, .line2, .line3 {
+    background-color: #fff;
+    width: 30px;
+    height: 2px;
+    margin: 7px 50px;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.change .line1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .line2 {opacity: 0;}
+
+.change .line3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.language{
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    padding: 2px;
+}
+#btn-eng{
+    background-image: url(/image/icons8-великобритания-48.png);
+}
+#btn-ru{
+    background-image: url(/image/icons8-российская-федерация-48.png);
+}
+
+/* кометы */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+} 
+
+@media all and (max-width: 500px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .hamburger-button {
+        display: block;
+        order: 1;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .responsive {
+        display: block;
+        order: 2;
+        width: 100%;
+        margin-left: 30px;
+        padding: 5px 0;
+    }
+
+    .nav-main {
+        margin-left: 30px;
+    }
+
+    .line1, .line2, .line3 {
+        margin: 7px 30px;
+    }
+}
+/* @media all and (max-width: 540px) {
+    nav {
+        padding: 5px 0;
+    }
+} */
